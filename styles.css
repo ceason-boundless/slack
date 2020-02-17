@@ -1,8 +1,28 @@
+@font-face {
+    font-family: Larsseit-Bold;
+    src: url(fonts/Larsseit-Bold.otf);
+  }
+  @font-face {
+    font-family: Larsseit;
+    src: url(fonts/Larsseit-Regular.otf);
+  }
+  @font-face {
+    font-family: Larsseit-Light;
+    src: url(fonts/Larsseit-Light.otf);
+  }
+  @font-face {
+    font-family: SlackCircular-Bold;
+    src: url(fonts/SlackCircular-Bold.otf);
+  }
+  @font-face {
+    font-family: SlackCircular;
+    src: url(fonts/SlackCircular-Book.otf);
+  }
 .navigation {
     box-shadow: 0px 2px 5px #ACACAC;
     display: flex;
     list-style: none;
-    width: 100vw;
+    width: 105vw;
     min-height: 10vh;
     position: relative;
     top: -10px;
@@ -10,17 +30,46 @@
 }
 #logo {
     height: 4vh;
-    padding-top: 3%;
-    padding-left: 7%;
+    position: absolute;
+    top: 40px;
+    left: 8%;
 }
 .nav-list {
     position: absolute;
-    top: 50px;
-    right: 50px;
+    top: 55px;
+    right: 13%;
 }
 .nav-list a{
     color: #666;
     text-decoration: none;
-    font-family: 'Larsseit', Arial, Sans-serif;
-    padding-left: 20px;
+    font-family: 'Larsseit-Light', Arial, Sans-serif;
+    padding-left: 30px;
+    font-size: .9rem;
+}
+
+.welcome-banner {
+    background-color: #f6f6f6;
+    height: 40vh;
+    width: 110vw;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 100px 10% 0 8%;
+}
+.welcome-banner h3 {
+    font-family: 'Larsseit-Light', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    color: #4a154b;
+}
+.welcome-banner h1 {
+    font-family: 'Larsseit-Bold', Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    color: #4a154b;
+    margin: 0px;
+}
+.welcome-banner p {
+    font-family: 'Larsseit-Regular', Arial, Helvetica, sans-serif;
+    color: #4a154b;
+    margin: 0px;
+    font-size: .75rem;
 }
