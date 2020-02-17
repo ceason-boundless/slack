@@ -2,23 +2,56 @@
 <html lang="en">
 <head>
     <link href="styles.css" rel="stylesheet">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slack Swag Marketplace</title>
+<!-- <style>
+    @media screen and (max-width: 600px) {
+        .nav-list.responsive {position: relative;}
+        .nav-list.responsive a.icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .nav-list.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+    }
+</style> -->
 </head>
 <body>
     <div class="navigation">
         <img id="logo" src="images/Slack-LOGO.jpg"/>
         <nav class="nav-list">
-            <a href="#">Corporate Store</a>
-            <a href="#">Sales & CS Store</a>
-            <a href="#">Employee Store</a>
+            
+            <div id="hamburger-id">
+                <a href="#" class="nav-item">Corporate Store</a>
+                <a href="#" class="nav-item">Sales & CS Store</a>
+                <a href="#" class="nav-item">Employee Store</a>
+            </div>
+            <button class="icon" type="button" onclick="hamburgerOpen()" style="max-height: 25px;">
+                <i class="fa fa-bars"></i>
+            </button>
         </nav>
     </div>
+
     <div class="welcome-banner">
         <h3>Welcome to your</h3>
         <h1>Slack SWAG Marketplace</h1>
         <p>Make a selection below to select your destination region and begin shopping.</p>
     </div>
+    <script>
+        /* Toggle between adding and removing the "responsive" class 
+        to hamburger when the user clicks on the icon */
+        function hamburgerOpen() {
+            const hamburger = document.getElementById('hamburger-id');
+            hamburger.classList.toggle('open')
+        }
+    </script>
 </body>
 </html>

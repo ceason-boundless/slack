@@ -22,12 +22,13 @@
     box-shadow: 0px 2px 5px #ACACAC;
     display: flex;
     list-style: none;
-    width: 105vw;
+    width: 100vw;
     min-height: 10vh;
     position: relative;
     top: -10px;
     left: -10px;
 }
+
 #logo {
     height: 4vh;
     position: absolute;
@@ -36,6 +37,7 @@
 }
 .nav-list {
     position: absolute;
+    display: flex;
     top: 55px;
     right: 13%;
 }
@@ -43,17 +45,56 @@
     color: #666;
     text-decoration: none;
     font-family: 'Larsseit-Light', Arial, Sans-serif;
-    padding-left: 30px;
+    padding-left: 25px;
     font-size: .9rem;
+}
+.nav-list a:hover {
+    color: #611f69;
+}
+/* Hide the hamburger */
+@media screen and (min-width: 650px) {
+    .nav-list .icon {
+        display: none;
+        border: white solid 0px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .nav-item {
+        display: none;
+    }
+    .icon {
+        display: block;
+        border: white solid 0px;
+        right: 25px;
+        font-size: 1.25rem;
+    }
+    .open a {
+        display: block;
+        background-color: #4a154b;
+        color: white;
+        padding-left: 0px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .open a:hover {
+        color: #cfcfcf;
+    }
+    .open {
+        width: 140px;
+        display: block;
+    }
+    
 }
 
 .welcome-banner {
     background-color: #f6f6f6;
     height: 40vh;
-    width: 110vw;
+    width: 92vw;
     margin-left: -10px;
     margin-top: -10px;
-    padding: 100px 10% 0 8%;
+    padding: 100px 0 0 8%;
 }
 .welcome-banner h3 {
     font-family: 'Larsseit-Light', Arial, Helvetica, sans-serif;
@@ -64,8 +105,10 @@
 .welcome-banner h1 {
     font-family: 'Larsseit-Bold', Arial, Helvetica, sans-serif;
     font-size: 4rem;
+    line-height: 1;
     color: #4a154b;
     margin: 0px;
+    margin-top: 8px;
 }
 .welcome-banner p {
     font-family: 'Larsseit-Regular', Arial, Helvetica, sans-serif;
