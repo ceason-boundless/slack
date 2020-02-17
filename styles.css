@@ -1,0 +1,26 @@
+.navigation {
+    box-shadow: 0px 2px 5px #ACACAC;
+    display: flex;
+    list-style: none;
+    width: 100vw;
+    min-height: 10vh;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+#logo {
+    height: 4vh;
+    padding-top: 3%;
+    padding-left: 7%;
+}
+.nav-list {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.nav-list a{
+    color: #666;
+    text-decoration: none;
+    font-family: 'Larsseit', Arial, Sans-serif;
+    padding-left: 20px;
+}
