@@ -18,11 +18,12 @@
     font-family: SlackCircular;
     src: url(fonts/SlackCircular-Book.otf);
   }
+
 .navigation {
     box-shadow: 0px 2px 5px #ACACAC;
     display: flex;
     list-style: none;
-    width: 100vw;
+    width: 101vw;
     min-height: 10vh;
     position: relative;
     top: -10px;
@@ -68,6 +69,7 @@
         border: white solid 0px;
         right: 25px;
         font-size: 1.25rem;
+        color: #555;
     }
     .open a {
         display: block;
@@ -91,7 +93,7 @@
 .welcome-banner {
     background-color: #f6f6f6;
     height: 35vh;
-    width: 92vw;
+    width: 93vw;
     margin-left: -10px;
     margin-top: -10px;
     padding: 50px 0 0 8%;
@@ -125,6 +127,7 @@
     margin-top: -3%;
     text-align: right;
     padding-right: 10%;
+    margin-bottom: 7%;
 }
 .store-buttons-each img {
     width: 10vw;
@@ -132,7 +135,7 @@
 .store-buttons-each h4 {
     font-family: 'Larsseit-Bold';
     text-align: right;
-    color: #444444;
+    color: #555;
     font-size: 1.25rem;
     margin-bottom: 10px;
 }
@@ -154,6 +157,30 @@
 .container-2 {
     display: flex;
     justify-content: space-evenly;
+}
+/* footer */
+.footer {
+    display: flex;
+    text-align: right;
+    justify-content: space-evenly;
+    padding-left: 50%;
+    font-family: 'SlackCircular', Arial, Helvetica, sans-serif;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.footer a{
+    display: block;
+    text-decoration: none;
+    font-size: .74rem;
+    color: #666;
+    line-height: 1.8;
+}
+.footer h4{
+    display: block;
+    font-family: 'SlackCircular', Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 1.15rem;
 }
 /* window is 1025px or more */
 @media screen and (min-width: 1025px) {
@@ -229,5 +256,15 @@
     }
     .nav-list {
         top: 38%;
+    }
+    .footer {
+        padding-left: 20%;
+        margin-bottom: 7%;
+    }
+    .footer h4 {
+        font-size: .9rem;
+    }
+    .footer a {
+        font-size: .6rem;
     }
 }
