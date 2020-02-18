@@ -53,14 +53,14 @@
     color: #611f69;
 }
 /* Hide the hamburger */
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 800px) {
     .nav-list .icon {
         display: none;
         border: white solid 0px;
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
     .nav-item {
         display: none;
     }
@@ -167,6 +167,9 @@
     color: #666;
     line-height: 1.4;
 }
+.store-buttons-each a {
+    text-decoration: none;
+}
 .store-buttons-each {
     width: 50%;
     padding-left: 13%;
@@ -222,8 +225,8 @@
         font-size: 1rem;
     }
     .tear-drop-shape {
-        width: 150px;
-        height: 150px;
+        width: 160px;
+        height: 160px;
     }
     .store-buttons-each h4 {
         font-size: 1.5rem;
@@ -250,7 +253,21 @@
     .store-buttons-each {
         padding-left: 11%;
     }
+    .welcome-banner {
+        height: 32vh;
+    }
+    .tear-drop-shape {
+        height: 150px;
+        width: 150px;
+    }
 }
+/* window is 790px or less */
+@media screen and (max-width: 790px){
+    .welcome-banner {
+        height: 42vh;
+    }
+}
+
 /* window is 600px or less */
 @media screen and (max-width: 600px) {
     .enter-store-container {
@@ -260,14 +277,15 @@
         width: 20vw;
     }
     .welcome-banner {
-        padding: 30px 0 0 8%;
-        height: 22vh;
+        padding: 8px 0 0 11%;
+        height: 30vh;
     }
     .welcome-banner h3 {
-        font-size: 5vw;
+        font-size: 6vw;
     }
     .welcome-banner h1 {
-        font-size: 7vw;
+        font-size: 12vw;
+        margin-top: 4px;
     }
     .welcome-banner p {
         font-size: .5rem;
@@ -284,6 +302,14 @@
     }
     .nav-list {
         top: 38%;
+    }
+    .tear-drop-shape {
+        height: 90px;
+        width: 90px; 
+    }
+    .tear-drop-shape a{
+        font-size: .5rem;
+        top: 25px;
     }
     .footer {
         padding-left: 20%;
