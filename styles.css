@@ -129,8 +129,29 @@
     padding-right: 10%;
     margin-bottom: 7%;
 }
-.store-buttons-each img {
+/* .store-buttons-each img {
     width: 10vw;
+} */
+.tear-drop-shape {
+    width: 130px;
+    height: 130px;
+    background-color: #4a154b;
+    border-radius: 145% 145% 0 145%;
+    float: right;
+    box-shadow: 0px 2px 5px #ACACAC;
+    margin-bottom: 25px;
+}
+.clear {
+    clear: both;
+}
+.tear-drop-shape a{
+    color: #cfcfcf;
+    padding-top: 60px;
+    font-family: 'SlackCircular', Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 45px;
+    right: 20px;
+    text-decoration: none;
 }
 .store-buttons-each h4 {
     font-family: 'Larsseit-Bold';
@@ -199,6 +220,13 @@
     }
     .welcome-banner p {
         font-size: 1rem;
+    }
+    .tear-drop-shape {
+        width: 150px;
+        height: 150px;
+    }
+    .store-buttons-each h4 {
+        font-size: 1.5rem;
     }
 }
 /* window is 1024px or less */
