@@ -90,11 +90,11 @@
 
 .welcome-banner {
     background-color: #f6f6f6;
-    height: 40vh;
+    height: 35vh;
     width: 92vw;
     margin-left: -10px;
     margin-top: -10px;
-    padding: 100px 0 0 8%;
+    padding: 50px 0 0 8%;
 }
 .welcome-banner h3 {
     font-family: 'Larsseit-Light', Arial, Helvetica, sans-serif;
@@ -155,11 +155,26 @@
     display: flex;
     justify-content: space-evenly;
 }
-@media screen and (min-width: 1980px) {
+/* window is 1025px or more */
+@media screen and (min-width: 1025px) {
     .store-buttons-each img {
         width: 8vw;
     }
+    .welcome-banner {
+        padding: 60px 0 0 8%;
+        height: 44vh;
+    }
+    .welcome-banner h3 {
+        font-size: 4rem;
+    }
+    .welcome-banner h1 {
+        font-size: 5rem;
+    }
+    .welcome-banner p {
+        font-size: 1rem;
+    }
 }
+/* window is 1024px or less */
 @media screen and (max-width: 1024px) {
     .enter-store-container {
         display: block;
@@ -181,7 +196,7 @@
         padding-left: 11%;
     }
 }
-
+/* window is 600px or less */
 @media screen and (max-width: 600px) {
     .enter-store-container {
         flex-direction: column;
@@ -189,19 +204,30 @@
     .store-buttons-each img {
         width: 20vw;
     }
-}
-@media screen and (max-width: 400px) {
     .welcome-banner {
         padding: 30px 0 0 8%;
+        height: 22vh;
     }
     .welcome-banner h3 {
-        font-size: 1rem;
+        font-size: 5vw;
     }
     .welcome-banner h1 {
-        font-size: 2.5rem;
+        font-size: 7vw;
     }
     .welcome-banner p {
         font-size: .5rem;
         padding-right: 34%;
+    }
+    .store-buttons-each h4 {
+        font-size: 1rem;
+    }
+    .store-buttons-each p {
+        font-size: .65rem;
+    }
+    #logo {
+        top: 10%;
+    }
+    .nav-list {
+        top: 38%;
     }
 }
