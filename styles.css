@@ -129,9 +129,6 @@
     padding-right: 10%;
     margin-bottom: 7%;
 }
-/* .store-buttons-each img {
-    width: 10vw;
-} */
 .tear-drop-shape {
     width: 130px;
     height: 130px;
@@ -335,7 +332,7 @@
     height: auto;
 }
 .map-intro {
-    padding-left: 12%;
+    padding-left: 9%;
     width: 60%;
 }
 .map-intro a {
