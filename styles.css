@@ -153,6 +153,9 @@
     right: 20px;
     text-decoration: none;
 }
+.tear-drop-shape a:hover {
+    color: #fff;
+}
 .store-buttons-each h4 {
     font-family: 'Larsseit-Bold';
     text-align: right;
@@ -321,4 +324,24 @@
     .footer a {
         font-size: .6rem;
     }
+}
+
+/* corporate-map styles */
+
+#corporate-map {
+    display: block;
+    margin:0 auto;
+    width: 80vw;
+    height: auto;
+}
+.map-intro {
+    padding-left: 12%;
+    width: 60%;
+}
+.map-intro h5{
+    font-family: 'Larsseit', Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 1.25rem;
+    margin-top: 8px;
 }
