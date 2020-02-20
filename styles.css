@@ -189,11 +189,11 @@
 .footer {
     display: flex;
     text-align: right;
-    justify-content: space-evenly;
+    float: right;   
     padding-left: 50%;
     font-family: 'SlackCircular', Arial, Helvetica, sans-serif;
     margin-bottom: 3%;
-    margin-top: 2%;
+    padding-right: 10%;
 }
 .footer a{
     display: block;
@@ -337,6 +337,14 @@
 .map-intro {
     padding-left: 12%;
     width: 60%;
+}
+.map-intro a {
+    color: #4a154b;
+    text-decoration: none;
+    font-family: 'Larsseit', Arial, Helvetica, sans-serif;
+}
+.map-intro a:hover {
+    color: #7c3085;
 }
 .map-intro h5{
     font-family: 'Larsseit', Arial, Helvetica, sans-serif;
