@@ -344,9 +344,12 @@
     color: #7c3085;
 }
 .map-intro h5{
-    font-family: 'Larsseit', Arial, Helvetica, sans-serif;
+    font-family: 'Larsseit-Light', Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
     color: #666;
     font-size: 1.25rem;
     margin-top: 8px;
+}
+.map-intro span {
+    font-family: 'Larsseit-Bold', Arial, Helvetica, sans-serif;
 }
