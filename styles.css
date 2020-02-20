@@ -129,9 +129,6 @@
     padding-right: 10%;
     margin-bottom: 7%;
 }
-/* .store-buttons-each img {
-    width: 10vw;
-} */
 .tear-drop-shape {
     width: 130px;
     height: 130px;
@@ -189,11 +186,12 @@
 .footer {
     display: flex;
     text-align: right;
-    justify-content: space-evenly;
+    float: right;
+    align-items: right;
+    padding-right: 10%;
     padding-left: 50%;
     font-family: 'SlackCircular', Arial, Helvetica, sans-serif;
     margin-bottom: 3%;
-    margin-top: 2%;
 }
 .footer a{
     display: block;
@@ -335,8 +333,16 @@
     height: auto;
 }
 .map-intro {
-    padding-left: 12%;
+    padding-left: 9%;
     width: 60%;
+}
+.map-intro a {
+    color: #4a154b;
+    font-family: 'Larsseit', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.map-intro a:hover {
+    color: #7c3085;
 }
 .map-intro h5{
     font-family: 'Larsseit', Arial, Helvetica, sans-serif;
