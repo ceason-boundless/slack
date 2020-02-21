@@ -206,6 +206,40 @@
     color: #666;
     font-size: 1.15rem;
 }
+
+/* map styles */
+
+#map-style {
+    display: block;
+    margin:0 auto;
+    width: 80vw;
+    height: auto;
+    padding-bottom: 15px;
+}
+.map-intro {
+    padding-left: 9%;
+    padding-top: 20px;
+}
+.map-intro a {
+    color: #4a154b;
+    text-decoration: none;
+    font-family: 'Larsseit', Arial, Helvetica, sans-serif;
+}
+.map-intro a:hover {
+    color: #7c3085;
+}
+.map-intro h5{
+    font-family: 'Larsseit-Light', Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 1.25rem;
+    margin-top: 16px;
+}
+.map-intro span {
+    font-family: 'Larsseit-Bold', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
 /* window is 1025px or more */
 @media screen and (min-width: 1025px) {
     .store-buttons-each img {
@@ -321,35 +355,12 @@
     .footer a {
         font-size: .6rem;
     }
+    .map-intro h5{
+        font-size: .8rem;
+        padding-right: 4%;
+    }
+    .map-intro a {
+        font-size: .7rem;
+    }
 }
 
-/* corporate-map styles */
-
-#corporate-map {
-    display: block;
-    margin:0 auto;
-    width: 80vw;
-    height: auto;
-}
-.map-intro {
-    padding-left: 9%;
-    width: 60%;
-}
-.map-intro a {
-    color: #4a154b;
-    text-decoration: none;
-    font-family: 'Larsseit', Arial, Helvetica, sans-serif;
-}
-.map-intro a:hover {
-    color: #7c3085;
-}
-.map-intro h5{
-    font-family: 'Larsseit-Light', Arial, Helvetica, sans-serif;
-    margin-bottom: 10px;
-    color: #666;
-    font-size: 1.25rem;
-    margin-top: 8px;
-}
-.map-intro span {
-    font-family: 'Larsseit-Bold', Arial, Helvetica, sans-serif;
-}
