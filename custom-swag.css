@@ -166,30 +166,38 @@ a:hover {
 }
 .admin-container p {
     font-size: 1rem;
+    line-height: 1.5;
+    margin-top: -5px;
 }
 h2 {
-    font-family: 'Larsseit-Bold', Arial, Helvetica, sans-serif;
+    font-family: 'Larsseit', Arial, Helvetica, sans-serif;
     /* clear: both; */
 }
 .button {
-    width: 150px;
-    background-color: #4a154b;
+    width: 115px;
+    background-color: #611f69;
     border-radius: 4px;
     margin-top: 30px;
     display: block;
     /* float: right; */
     text-align: center;
 }
+.button:hover {
+    background-color: #4a154b;
+}
 a.button{
     color: #fff;
     padding: 16px;
-    font-size: .9rem;
+    font-size: 1rem;
+    font-family: 'SlackCircular', Arial, Helvetica, sans-serif;
 }
 .admin-right-side {
     width: 50%;
-    padding: 0 7%;
+    padding-right: 10%;
+    padding-left: 4%;
 }
 .admin-left-side {
     width: 50%;
-    padding: 0 7%;
+    padding-left: 10%;
+    padding-right: 4%;
 }

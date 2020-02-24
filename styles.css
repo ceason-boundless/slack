@@ -138,6 +138,9 @@
     box-shadow: 0px 2px 5px #ACACAC;
     margin-bottom: 25px;
 }
+.tear-drop-shape:hover {
+    background-color: #611f69;
+}
 .clear {
     clear: both;
 }
