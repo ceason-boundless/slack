@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="custom-swag.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Order Access Dashboard</title>
+</head>
+<body>
+    <div class="navigation">
+        <a href="index.html"><img id="logo" src="images/Slack-LOGO.svg"/></a>
+        <nav class="nav-list">
+            
+            <div id="hamburger-id">
+                <a href="corporate-map.html" class="nav-item">Corporate Store</a>
+                <a href="https://slacksalesandsuccess.mybrightsites.com/" class="nav-item">Sales & CS Store</a>
+                <a href="employee-map.html" class="nav-item">Employee Store</a>
+                <a href="https://www.emailmeform.com/builder/form/5fDJbEd3AcI28bWncx8e904" class="nav-item">Custom Swag</a>
+            </div>
+            <button class="icon" type="button" onclick="hamburgerOpen()" style="max-height: 25px;">
+                <i class="fa fa-bars"></i>
+            </button>
+        </nav>
+    </div>
+
+    <div class="admin-intro">
+        <p>Please access the new item request form by selecting the type below.
+            If we have any questions regarding your request, the Slack SWAG Creative 
+            Team will reach out to you to discuss further.</p>
+    </div>
+
+    <div class="admin-container">
+        <div class="admin-left-side">
+            <h1>Sales & Customer Success </h1>
+                <h2>Request a NEW item for inventory</h2>
+                <p>Clicking this option will direct you to the Sales & Customer Success new item request form.
+                    Complete the form and submit. The Slack SWAG Creative Team will reach out to you to discuss 
+                    further.</p>
+                <a href="#" class="button">NEW ITEM</a>
+                <br/>
+                <h2 style="margin-top: 50px;">Re-Order an EXISTING item for inventory</h2>
+                <p>Clicking this button will direct you to Coupa so you can access the Corporate Store. 
+                    <br>
+                    To re-order inventory, select a product in the Sales & Customer Success Category and place your order. 
+                </p>
+                <a href="#" class="button">NEW ITEM</a>
+        </div>
+        <div class="admin-right-side">
+            <h1>Workplace Team</h1>
+                <h2>Request a NEW item for inventory</h2>
+                <p>Clicking this option will direct you to the Workplace Team new item request form.
+                    Complete the form and submit. The Team Slack creative team will reach out to you to 
+                    discuss further.</p>
+                <a href="#" class="button">NEW ITEM</a>
+                <br/>
+                <h2 style="margin-top: 50px;">Re-Order an EXISTING item for inventory</h2>
+                <p>If you are looking to re-order an existing inventory item, reach out to the 
+                    Slack SWAG Creative Team in channel.</p>
+                <a href="#" class="button">GO TO CHANNEL</a>
+        </div>
+    </div>
+    
+    <br>
+    <hr/>
+    <!-- footer -->
+    <div class="footer">
+        <div>
+            <h4>Contact Us</h4>
+            <a href="#">Slack Orders</a>
+            <a href="#">555-555-5555</a>
+        </div>
+    </div>
+    <script>
+        /* Toggle between open and close on the hamburger menu */
+        function hamburgerOpen() {
+            const hamburger = document.getElementById('hamburger-id');
+            hamburger.classList.toggle('open')
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+@font-face {
+    font-family: Larsseit-Bold;
+    src: url(fonts/Larsseit-Bold.otf);
+  }
+  @font-face {
+    font-family: Larsseit;
+    src: url(fonts/Larsseit-Regular.otf);
+  }
+  @font-face {
+    font-family: Larsseit-Light;
+    src: url(fonts/Larsseit-Light.otf);
+  }
+  @font-face {
+    font-family: SlackCircular-Bold;
+    src: url(fonts/SlackCircular-Bold.otf);
+  }
+  @font-face {
+    font-family: SlackCircular;
+    src: url(fonts/SlackCircular-Book.otf);
+  }
+  .navigation {
+    box-shadow: 0px 2px 5px #ACACAC;
+    display: flex;
+    list-style: none;
+    width: 101vw;
+    min-height: 10vh;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
+#logo {
+    height: 8vh;
+    position: absolute;
+    top: 20px;
+    left: 8%;
+}
+.nav-list {
+    position: absolute;
+    display: flex;
+    top: 55px;
+    right: 13%;
+}
+.nav-list a{
+    color: #666;
+    text-decoration: none;
+    font-family: 'Larsseit-Light', Arial, Sans-serif;
+    padding-left: 25px;
+    font-size: .9rem;
+}
+.nav-list a:hover {
+    color: #611f69;
+}
+/* Hide the hamburger */
+@media screen and (min-width: 800px) {
+    .nav-list .icon {
+        display: none;
+        border: white solid 0px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nav-item {
+        display: none;
+    }
+    .icon {
+        display: block;
+        border: white solid 0px;
+        right: 25px;
+        font-size: 1.25rem;
+        color: #555;
+    }
+    .open a {
+        display: block;
+        background-color: #4a154b;
+        color: white;
+        padding-left: 0px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .open a:hover {
+        color: #cfcfcf;
+    }
+    .open {
+        width: 140px;
+        display: block;
+    }
+    
+}
+.custom-swag {
+    display: flex;
+    padding-top: 3%;
+}
+
+.custom-swag-left {
+    width: 50%;
+    padding-left: 9%;
+    padding-right: 5%;
+}
+.custom-swag-right {
+    width: 40%;
+}
+h1 {
+    font-family: 'Larsseit-Bold', Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+p, a {
+    font-family: 'SlackCircular', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 1.15rem;
+}
+a {
+    color: #4a154b;
+}
+a:hover {
+    color: #611f69;
+}
+.custom-swag-channels-container {
+    display: flex;
+    padding-left: 8%;
+    padding-top: 2%;
+}
+.channels-left {
+    width: 43%;
+    padding-left: 5%;
+    padding-top: 90px;
+}
+.channel-right {
+    width: 40%;
+    margin-left: 100px;
+}
+/* footer */
+.footer {
+    display: flex;
+    text-align: right;
+    float: right;   
+    padding-left: 50%;
+    font-family: 'SlackCircular', Arial, Helvetica, sans-serif;
+    margin-bottom: 3%;
+    padding-right: 10%;
+}
+.footer a{
+    display: block;
+    text-decoration: none;
+    font-size: .74rem;
+    color: #666;
+    line-height: 1.8;
+}
+.footer h4{
+    display: block;
+    font-family: 'SlackCircular', Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 1.15rem;
+}
+
+/* admin dashboard page styles */
+.admin-intro {
+    text-align: center;
+    padding: 2% 20%;
+    line-height: 1.75;
+}
+.admin-container {
+    display: flex;
+}
+.admin-container p {
+    font-size: 1rem;
+}
+h2 {
+    font-family: 'Larsseit-Bold', Arial, Helvetica, sans-serif;
+    /* clear: both; */
+}
+.button {
+    width: 150px;
+    background-color: #4a154b;
+    border-radius: 4px;
+    margin-top: 30px;
+    display: block;
+    /* float: right; */
+    text-align: center;
+}
+a.button{
+    color: #fff;
+    padding: 16px;
+    font-size: .9rem;
+}
+.admin-right-side {
+    width: 50%;
+    padding: 0 7%;
+}
+.admin-left-side {
+    width: 50%;
+    padding: 0 7%;
+}
