@@ -18,76 +18,7 @@
     font-family: SlackCircular;
     src: url(fonts/SlackCircular-Book.otf);
   }
-  .navigation {
-    box-shadow: 0px 2px 5px #ACACAC;
-    display: flex;
-    list-style: none;
-    width: 101vw;
-    min-height: 10vh;
-    position: relative;
-    top: -10px;
-    left: -10px;
-}
 
-#logo {
-    height: 8vh;
-    position: absolute;
-    top: 20px;
-    left: 8%;
-}
-.nav-list {
-    position: absolute;
-    display: flex;
-    top: 55px;
-    right: 13%;
-}
-.nav-list a{
-    color: #666;
-    text-decoration: none;
-    font-family: 'Larsseit-Light', Arial, Sans-serif;
-    padding-left: 25px;
-    font-size: .9rem;
-}
-.nav-list a:hover {
-    color: #611f69;
-}
-/* Hide the hamburger */
-@media screen and (min-width: 800px) {
-    .nav-list .icon {
-        display: none;
-        border: white solid 0px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .nav-item {
-        display: none;
-    }
-    .icon {
-        display: block;
-        border: white solid 0px;
-        right: 25px;
-        font-size: 1.25rem;
-        color: #555;
-    }
-    .open a {
-        display: block;
-        background-color: #4a154b;
-        color: white;
-        padding-left: 0px;
-        text-align: center;
-        padding-top: 10px;
-        padding-bottom: 5px;
-    }
-    .open a:hover {
-        color: #cfcfcf;
-    }
-    .open {
-        width: 140px;
-        display: block;
-    }
-    
-}
 /* custom swag page styles */
 body {
     margin: 0 !important;
@@ -200,3 +131,34 @@ a.button{
     padding-right: 4%;
 }
 /* dashboard style ends */
+
+/* window is 600px or less */
+@media screen and (max-width: 600px) {
+    #logo {
+        top: 10%;
+    }
+    .nav-list {
+        top: 38%;
+    }
+    .navigation {
+        width: 104vw;
+    }
+    .center {
+        display: block;
+    }
+    .left {
+        width: 100%;
+        padding-right: 0px;
+    }
+    .left h1{
+        font-size: 2rem;
+    }
+    .left p, a {
+        font-size: .8rem;
+        padding-right: 14%;
+    }
+    .right img {
+        width: 85vw;
+        margin-top: 17%;
+    }
+}
