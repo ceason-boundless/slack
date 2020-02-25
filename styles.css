@@ -172,6 +172,9 @@ body {
     color: #666;
     line-height: 1.4;
 }
+#astrisk {
+    font-size: .67rem;
+}
 .store-buttons-each a {
     text-decoration: none;
 }
@@ -309,6 +312,12 @@ body {
 
 /* window is 600px or less */
 @media screen and (max-width: 600px) {
+    #astrisk {
+        font-size: .25rem;
+    }
+    body {
+        margin: 0px;
+    }
     .enter-store-container {
         flex-direction: column;
     }
@@ -342,6 +351,9 @@ body {
     .nav-list {
         top: 38%;
     }
+    .navigation {
+        width: 104vw;
+    }
     .tear-drop-shape {
         height: 90px;
         width: 90px; 
@@ -349,6 +361,11 @@ body {
     .tear-drop-shape a{
         font-size: .5rem;
         top: 25px;
+    }
+    .tear-drop-shape h5 {
+        top: -39px;
+        right: 10px;
+        font-size: .5rem;
     }
     .footer {
         padding-left: 20%;
