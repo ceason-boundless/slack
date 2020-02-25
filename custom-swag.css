@@ -99,6 +99,7 @@ body {
 }
 .custom-swag {
     padding-top: 3%;
+    margin-top: -10px;
 }
 .center {
     margin: 0 auto;
@@ -154,9 +155,6 @@ a:hover {
     color: #666;
     font-size: 1.15rem;
     }
-hr {
-    margin-block-start: 0em;
-}
 
 /* admin dashboard page styles */
 .admin-container {
