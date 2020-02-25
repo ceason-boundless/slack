@@ -18,7 +18,9 @@
     font-family: SlackCircular;
     src: url(fonts/SlackCircular-Book.otf);
   }
-
+body {
+    margin: 0 !important;
+}
 .navigation {
     box-shadow: 0px 2px 5px #ACACAC;
     display: flex;
