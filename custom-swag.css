@@ -72,7 +72,7 @@ a:hover {
     margin-bottom: 3%;
     padding-right: 10%;
 }
-.footer a{
+footer a {
     display: block;
     text-decoration: none;
     font-size: .74rem;
@@ -104,15 +104,14 @@ h2 {
 }
 .button {
     width: 115px;
-    background-color: #611f69;
+    background-color: #4A154B;
     border-radius: 4px;
     margin-top: 30px;
     display: block;
-    /* float: right; */
     text-align: center;
 }
 .button:hover {
-    background-color: #4a154b;
+    background-color: #7C3085;
 }
 a.button{
     color: #fff;
@@ -160,5 +159,18 @@ a.button{
     .right img {
         width: 85vw;
         margin-top: 17%;
+    }
+    .admin-container {
+        display: block;
+    }
+    .admin-left-side, .admin-right-side {
+        width: 80%;
+        padding-left: 10%;
+    }
+    .admin-right-side h1 {
+        margin-top: 50px;
+    }
+    #admin-container-divider {
+        margin-top: 60px;
     }
 }

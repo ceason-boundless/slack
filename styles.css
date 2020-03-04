@@ -200,7 +200,7 @@ body {
     margin-bottom: 3%;
     padding-right: 10%;
 }
-.footer a{
+.footer a {
     display: block;
     text-decoration: none;
     font-size: .74rem;
@@ -217,7 +217,7 @@ body {
 
 /* map styles */
 
-#map-style {
+.map-style {
     display: block;
     margin:0 auto;
     width: 80vw;
@@ -296,7 +296,7 @@ body {
         padding-left: 11%;
     }
     .welcome-banner {
-        height: 32vh;
+        height: 300px;
     }
     .tear-drop-shape {
         height: 150px;
@@ -307,6 +307,12 @@ body {
 @media screen and (max-width: 790px){
     .welcome-banner {
         height: 380px;
+    }
+    .welcome-banner p {
+        font-size: 1rem;
+        padding-right: 32%;
+        line-height: 1.25;
+        margin-top: 8px;
     }
 }
 
@@ -326,7 +332,7 @@ body {
     }
     .welcome-banner {
         padding: 8px 0 0 11%;
-        height: 220px;
+        height: 310px;
     }
     .welcome-banner h3 {
         font-size: 6vw;
@@ -336,8 +342,10 @@ body {
         margin-top: 4px;
     }
     .welcome-banner p {
-        font-size: .5rem;
+        font-size: .75rem;
         padding-right: 34%;
+        line-height: 1.25;
+        margin-top: 7px;
     }
     .store-buttons-each h4 {
         font-size: 1rem;
@@ -384,6 +392,11 @@ body {
     }
     .map-intro a {
         font-size: .7rem;
+    }
+}
+@media screen and (max-width: 479px){
+    .welcome-banner {
+        height: 235px;
     }
 }
 
